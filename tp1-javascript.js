@@ -67,7 +67,7 @@ console.log(CopieEtudiantBase)
 function additionner(...nombres){
     let somme=0
     for(let nombre of nombres ){
-        somme+=nombres
+        somme+=nombre
     }
     return somme;
 };
